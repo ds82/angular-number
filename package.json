@@ -1,0 +1,28 @@
+{
+  "name": "angular-number",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "author": "Dennis Sänger <npm16 (-AT-) mail.ds82.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "brfs": "1.4.3",
+    "browserify": "13.0.0",
+    "browserify-shim": "3.8.12",
+    "karma": "0.13.21",
+    "karma-browserify": "5.0.2",
+    "karma-chrome-launcher": "0.2.2",
+    "karma-jasmine": "0.3.7",
+    "watchify": "3.7.0"
+  },
+  "browserify-shim": {
+    "external": "global:External"
+  },
+  "dependencies": {
+    "angular": "1.4.9",
+    "angular-mocks": "1.4.9"
+  }
+}
